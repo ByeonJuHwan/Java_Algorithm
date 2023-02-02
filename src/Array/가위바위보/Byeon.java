@@ -1,4 +1,4 @@
-package 가위바위보;
+package Array.가위바위보;
 
 import java.util.Scanner;
 

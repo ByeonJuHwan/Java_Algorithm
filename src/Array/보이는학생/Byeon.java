@@ -1,4 +1,4 @@
-package 보이는학생;
+package Array.보이는학생;
 
 import java.util.Scanner;
 

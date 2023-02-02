@@ -1,4 +1,4 @@
-package 큰수출력하기;
+package Array.큰수출력하기;
 
 import java.util.ArrayList;
 import java.util.Scanner;
