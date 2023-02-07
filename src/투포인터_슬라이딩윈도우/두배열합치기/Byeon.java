@@ -19,25 +19,25 @@ public class Byeon {
             arr2[i] = sc.nextInt();
         }
         List<Integer> answer = new ArrayList<>();
-        int p1 = 0, p2 = 0;
-        while (p1 < n && p2 < t) {
-            if (arr2[p2] < arr1[p1]) {
-                answer.add(arr2[p2]);
-                p2++;
+        int nt = 0;
+        int tt = 0;
+        while (nt < n && tt < t) {
+            if (arr2[tt] < arr1[nt]) {
+                answer.add(arr2[tt]);
+                tt++;
             }else{
-                answer.add(arr1[p1]);
-                p1++;
+                answer.add(arr1[nt]);
+                nt++;
             }
         }
-        while (p1 < n) {
-            answer.add(arr1[p1]);
-            p1++;
+        while (nt < n) {
+            answer.add(arr1[nt]);
+            nt++;
         }
-        while (p2 < t) {
-            answer.add(arr2[p2]);
-            p2++;
+        while (tt < t) {
+            answer.add(arr2[tt]);
+            tt++;
         }
-
         for(Integer x : answer) System.out.print(x + " ");
     }
 }
